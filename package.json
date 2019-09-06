@@ -1,0 +1,33 @@
+{
+  "name": "spotify-auth-search-apitest",
+  "version": "1.0.0",
+  "description": "This is a PSL's challenge about test to the spotify APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -t 5000 --reporter mochawesome --reporter-options reportDir=report,reportFilename=spotify-auth-search-apitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaearaz/spotify-auth-search-apitest.git"
+  },
+  "keywords": [
+    "api-testing",
+    "challenge"
+  ],
+  "author": "Andres Zapata <azo_67@hotmail.es> (gaearaz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaearaz/spotify-auth-search-apitest/issues"
+  },
+  "homepage": "https://github.com/gaearaz/spotify-auth-search-apitest#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "http-status-codes": "^1.3.2",
+    "mocha": "^6.2.0",
+    "mochawesome": "^4.1.0"
+  },
+  "dependencies": {
+    "superagent": "^5.1.0",
+    "superagent-promise": "^1.1.0"
+  }
+}
